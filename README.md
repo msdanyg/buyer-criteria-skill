@@ -29,7 +29,13 @@ Phrases like:
 
 ## Installation
 
-### Option A — Install the skill folder (Claude Code)
+### Option A — Claude.ai (no command line — where most marketers work)
+
+1. Download [`buyer-criteria-skill.skill`](./buyer-criteria-skill.skill) from this repo (top level, one click).
+2. In claude.ai, open **Settings → Capabilities**, find **Skills**, and upload the file.
+3. Done — next time you ask for the job, the skill runs.
+
+### Option B — Claude Code (if you work in the terminal)
 
 Copy the skill folder into your Claude skills directory:
 
@@ -42,10 +48,6 @@ cp -r buyer-criteria-skill /path/to/project/.claude/skills/
 ```
 
 Restart Claude Code (or start a new session) and the skill will be available.
-
-### Option B — Use the packaged `.skill` file
-
-Download [`buyer-criteria-skill.skill`](./buyer-criteria-skill.skill) and upload it wherever packaged skills are accepted (e.g. Claude.ai skill upload).
 
 ## Usage
 
